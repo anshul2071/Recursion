@@ -14,7 +14,7 @@ else {
             towerOfHanoi(n - 1, src, intmd, dest);
         }
 
-console.log(`Move disk ${n} from ${src} to ${dest}}`);
+console.log(`Move disk ${n} from ${src} to ${dest}`);
 
 if(n>1){
     towerOfHanoi(n - 1, intmd, dest , src);
